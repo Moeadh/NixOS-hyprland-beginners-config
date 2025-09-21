@@ -1,4 +1,11 @@
-#!/bin/bash
+!/bin/bash
+
+echo
+echo "   This will overwrite your existing configs for:"
+echo "   hypr, fastfetch, kitty, waybar, waypaper, wofi"
+echo "   and copy hyprland.nix file into /etc/nixos/"
+echo
+read -p "Do you want to continue? (y/n): " choice
 
 # Copy configs into ~/.config
 cp -R hypr "$HOME/.config/"
