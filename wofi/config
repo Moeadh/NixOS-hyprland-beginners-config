@@ -1,0 +1,6 @@
+mode=drun
+allow_images=true
+show-icons=true       # Not mandatory–`allow_images` handles the icons, but no harm including
+image_size=32         # Optionally adjust to your preference
+height=40%
+width=35%

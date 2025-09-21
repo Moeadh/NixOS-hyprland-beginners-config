@@ -1,0 +1,19 @@
+# Background opacity (0 = fully transparent, 1 = fully opaque)
+background_opacity 0.85
+
+# Background color tint (tint color)
+# Format: RRGGBB
+background #2e2e3e 
+# dark purple-ish gray
+
+# Decoration
+font_family FiraCode
+font_size 12
+foreground #E0E0E0
+cursor #FFD710
+selection_background #44475A
+# or explicitly set:
+shell zsh
+
+confirm_os_window_close 0
+
