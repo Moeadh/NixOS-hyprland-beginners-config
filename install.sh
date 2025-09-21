@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 echo
 echo "   This will overwrite your existing configs for:"
