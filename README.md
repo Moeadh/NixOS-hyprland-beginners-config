@@ -1,9 +1,9 @@
 # NixOS Hyprland Beginner’s Config
-If you are a beginner like me and you want to use Hyprland on NixOS, start from here!
-
+It's a so simple config, but it takes you from the level of tweaking every small detail to starting to make the real customizations. For that reason, I decided to share it. 🙂
 ## How to use it
 1. Download the repo (or get the .zip and extract it).
-2. Run the `install.sh` file.
+2. (⚠️ The script will overwrite your existing configs.)
+    Run the `install.sh` file.
    ```bash
    bash install.sh
    ```
