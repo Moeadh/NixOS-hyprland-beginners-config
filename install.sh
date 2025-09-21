@@ -11,7 +11,7 @@ cp -R wofi "$HOME/.config/"
 # Copy hyprland Nix config safely
 sudo cp -Ri hyprland.nix /etc/nixos/
 
-echo "✅ Now edit your main NixOS configuration and add this line inside imports:"
+echo "Now edit your main NixOS configuration and add this line inside imports:"
 echo "    ./hyprland.nix"
 echo "Then rebuild with:"
 echo "    sudo nixos-rebuild switch"
